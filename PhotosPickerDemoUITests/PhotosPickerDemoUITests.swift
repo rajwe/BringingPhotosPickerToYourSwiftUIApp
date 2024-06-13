@@ -29,6 +29,7 @@ final class PhotosPickerDemoUITests: XCTestCase {
         let pic2 = app.scrollViews.images.matching(NSPredicate(format: "label CONTAINS 'Photo'")).element(boundBy: 2)
         app.launch()
         app.buttons["profilepic"].tap()
+        sleep(10)
         _ = pic2.waitForExistence(timeout: 30)
         pic2.tap()
         XCTAssert(app.buttons["profilepic"].isHittable)
