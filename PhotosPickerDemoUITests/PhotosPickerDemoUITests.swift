@@ -26,9 +26,11 @@ final class PhotosPickerDemoUITests: XCTestCase {
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
+        let pic2 = app.scrollViews.images.matching(NSPredicate(format: "label CONTAINS 'Photo'")).element(boundBy: 2)
         app.launch()
         app.buttons["profilepic"].tap()
-        app.scrollViews.images.matching(NSPredicate(format: "label CONTAINS 'Photo'")).element(boundBy: 2).tap()
+        _ = pic2.waitForExistence(timeout: 30)
+        pic2.tap()
         XCTAssert(app.buttons["profilepic"].isHittable)
         
 
