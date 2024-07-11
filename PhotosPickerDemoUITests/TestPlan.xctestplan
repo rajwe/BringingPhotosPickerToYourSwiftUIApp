@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "E09A53C3-1B9A-4E28-B276-9CD2D7293120",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "PhotosPickerDemoUITests",
+        "PhotosPickerDemoUITestsLaunchTests"
+      ],
+      "target" : {
+        "containerPath" : "container:PhotosPickerDemo.xcodeproj",
+        "identifier" : "E55A9E9B2BCEADFF00C880D6",
+        "name" : "PhotosPickerDemoUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

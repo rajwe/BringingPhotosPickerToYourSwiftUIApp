@@ -40,6 +40,8 @@
 		E55A9E9E2BCEADFF00C880D6 /* PhotosPickerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerDemoUITests.swift; sourceTree = "<group>"; };
 		E55A9EA02BCEADFF00C880D6 /* PhotosPickerDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E594DB5B2C40889F0004E9AF /* AddTestForPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTestForPlan.swift; sourceTree = "<group>"; };
+		E594DB5D2C408C660004E9AF /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		E594DB5E2C408CBB0004E9AF /* OldPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = OldPlan.xctestplan; sourceTree = "<group>"; };
 		E964DB7DCC0E3B0B56B5DD56 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		F094D760287E0DB9007F2E34 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		F094D7622885AE43007F2E34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -126,6 +128,8 @@
 			children = (
 				E55A9E9E2BCEADFF00C880D6 /* PhotosPickerDemoUITests.swift */,
 				E594DB5B2C40889F0004E9AF /* AddTestForPlan.swift */,
+				E594DB5D2C408C660004E9AF /* TestPlan.xctestplan */,
+				E594DB5E2C408CBB0004E9AF /* OldPlan.xctestplan */,
 				E55A9EA02BCEADFF00C880D6 /* PhotosPickerDemoUITestsLaunchTests.swift */,
 			);
 			path = PhotosPickerDemoUITests;
